@@ -5,7 +5,7 @@ import ListView from "./ListView";
 const App: React.FC = () => {
   const [list, setList] = useState<number[]>([]);
 
-  // Load saved list from localStorage
+
   useEffect(() => {
     const savedList = localStorage.getItem("numberList");
     if (savedList) {
