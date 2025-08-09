@@ -8,7 +8,7 @@ interface ListViewProps {
 const ListView: React.FC<ListViewProps> = ({ items, onReset }) => {
   const [sortAsc, setSortAsc] = useState(true);
 
-  // Save list to localStorage when items change
+
   useEffect(() => {
     localStorage.setItem("numberList", JSON.stringify(items));
   }, [items]);
