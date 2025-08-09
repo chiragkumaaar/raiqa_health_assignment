@@ -13,7 +13,7 @@ const Counter: React.FC<CounterProps> = ({ onAdd }) => {
   const addToList = () => {
     if (count > 0) {
       onAdd(count);
-      setCount(0); // reset counter after adding
+      setCount(0);
     }
   };
 
