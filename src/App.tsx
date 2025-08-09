@@ -26,7 +26,7 @@ const App: React.FC = () => {
 
   return (
     <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
-      <h1 style={{ textAlign: "center" }}>RAIQA Health Assignment</h1>
+      <h1 style={{ textAlign: "center" }}>Counter & List App</h1>
       <Counter onAdd={handleAdd} />
       <ListView items={list} onReset={handleReset} />
     </div>
